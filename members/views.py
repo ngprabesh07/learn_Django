@@ -18,3 +18,6 @@ def details(request, id):
     'mymember': mymember,
   }
   return render(request,'details.html',context)
+
+def main(request):
+   return render(request,'main.html')

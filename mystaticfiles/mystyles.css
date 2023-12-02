@@ -4,6 +4,7 @@ body {
   font: 600 18px 'Source Sans Pro', sans-serif;
   letter-spacing: 0.64px;
   color: #585d74;
+  justify-content: flex-end;
 }
 .topnav {
   background-color:#375BDC;
@@ -60,4 +61,18 @@ a:link, a:visited {
 .main, .main h1 {
   text-align:center;
   color:#375BDC;
+}
+.profile {
+  width: 150px; /* Set your desired width */
+  height: 150px; /* Set your desired height */
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
 }

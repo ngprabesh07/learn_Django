@@ -23,8 +23,7 @@ def main(request):
    return render(request,'main.html')
 
 def testing(request):
-   mydata = Member.objects.all()
    context = {
-    'mymembers': mydata,   
+    'fruits': ['Apple', 'Banana', 'Cherry'],   
   }
    return render(request,'template.html',context)
